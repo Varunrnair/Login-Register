@@ -18,7 +18,7 @@ function App() {
           <Route path='register/' element={<Register />}/>
           <Route path='home/' element={<Home />}/>
           <Route exact path='activate/:id/:token/' element={<Activate />}/>
-          <Route  path='forgot/' element={<ForgotPassword />}/>
+          <Route path='forgot/' element={<ForgotPassword />}/>
           <Route path='password/reset/confirm/:id/:token/' element={<ResetPassword/>}></Route>
         </Routes>
       </BrowserRouter>
